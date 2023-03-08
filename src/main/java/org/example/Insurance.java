@@ -1,13 +1,27 @@
 package org.example;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+
+import java.util.Scanner;
 
 public class Insurance {
-    @ValueSource(doubles = {5.0, 4.0})
-    @ParameterizedTest
-    public void firstTest(double value) {
-        Assertions.assertTrue(value > 3);
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        if ( a >= 30 && a <= 65) {
+            System.out.println("For this age the cost of insurance is 100 units");
+        }
+        else if (a >= 18 && a <= 29) {
+            System.out.println("For this age the cost of insurance is 120 units");
+        }
+        else if (a >= 66 && a <= 79) {
+            System.out.println("For this age the cost of insurance is 130 units");
+            
+        }
+        else if (a < 18 && a > 79) {
+            System.out.println("0");
+            //doesn't work...
+
+        }
     }
+
 }

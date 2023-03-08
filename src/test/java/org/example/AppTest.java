@@ -1,38 +1,38 @@
 package org.example;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+public class AppTest {
+    @ValueSource(ints = {30, 65})
+    @ParameterizedTest
+    public void firstTest(int age) {
+        Assertions.assertTrue(age < 66 && age > 29);
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    @ValueSource(ints = {18, 29})
+    @ParameterizedTest
+    public void secondTest(int age) {
+        Assertions.assertTrue(age > 17 && age < 30);
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @ValueSource(ints = {66, 79})
+    @ParameterizedTest
+    public void thirdTest(int age) {
+        Assertions.assertTrue(age > 65 && age < 80);
     }
+
+    @ValueSource(ints = {17, 80})
+    @ParameterizedTest
+    public void zeroTest (int age) {
+        Assertions.assertFalse(false);
+    }
+
+
 }
+
+
