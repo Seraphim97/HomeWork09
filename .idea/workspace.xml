@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c484a9-7fd6-4dee-8eb5-5405e4d6cd48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Insurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="67c484a9-7fd6-4dee-8eb5-5405e4d6cd48" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/results/mvn test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/InsuranceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/results/Tests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +57,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\savic\IdeaProjects\HomeWork09\src\results" />
+      <recent name="C:\Users\savic\IdeaProjects\HomeWork09\src" />
+      <recent name="C:\Users\savic\IdeaProjects\HomeWork09\src\test\java\org\example" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insurance">
+  <component name="RunManager" selected="JUnit.InsuranceTest">
     <configuration name="Insurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Insurance" />
       <module name="HomeWork09" />
@@ -94,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsuranceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork09" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +104,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InsuranceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsuranceTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InsuranceTest" />
       <option name="METHOD_NAME" value="firstTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsuranceTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork09" />
       <extension name="coverage">
         <pattern>
@@ -119,24 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InsuranceTest" />
       <option name="METHOD_NAME" value="secondTest(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.zeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="zeroTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsuranceTest" />
+        <item itemvalue="JUnit.InsuranceTest.firstTest" />
+        <item itemvalue="JUnit.InsuranceTest.secondTest" />
         <item itemvalue="Application.Insurance" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.secondTest" />
-        <item itemvalue="JUnit.AppTest.zeroTest" />
-        <item itemvalue="JUnit.AppTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +161,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678209330775</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1678294900907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678294900907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
